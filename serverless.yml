@@ -101,6 +101,13 @@ functions:
           path: comments/{id}
           method: delete
           cors: true
+  getStatistics:
+    handler: apis/statistics/get.get
+    events:
+      - http:
+          path: statistics
+          method: get
+          cors: true
 
 
 resources:

@@ -2,6 +2,7 @@
    "name": "post-public-api",
    "dependencies": {
       "aws-sdk": "^2.892.0",
+      "lodash": "^4.17.21",
       "uuid": "^8.3.2"
    }
 }
